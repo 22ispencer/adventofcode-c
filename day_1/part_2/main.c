@@ -4,7 +4,7 @@
 #define W_BUF_SIZE 8
 
 int main() {
-  FILE *input = fopen("input.txt", "r");
+  FILE *input = fopen("../input.txt", "r");
 
   char line_buffer[L_BUF_SIZE];
   char word_buffer[W_BUF_SIZE] = "";
