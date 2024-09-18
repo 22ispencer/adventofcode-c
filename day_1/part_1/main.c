@@ -2,7 +2,7 @@
 #define BUF_SIZE 1024
 
 int main() {
-  FILE *input = fopen("input.txt", "r");
+  FILE *input = fopen("../input.txt", "r");
 
   char buffer[BUF_SIZE];
   int sum = 0;
